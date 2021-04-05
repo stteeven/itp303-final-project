@@ -1,0 +1,218 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #8ecae6;
+}
+
+/*body {
+	background-color: darkslategray;
+}*/
+
+label {
+	color: white;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+/*.inline {
+	display: inline;
+}*/
+
+/*Title within Jumbotron*/
+.title {
+	color: #012a4a;
+}
+
+/*Subhead within Jumbotron*/
+.subhead {
+	margin: auto;
+	background-color: #457b9d;
+	/*background-color: #3C4663;*/
+	border-radius: 15px;
+	color: white;
+}
+
+.search-btn {
+	background-color: #ffb700;
+	color: navy;
+	font-weight: bold;
+	box-shadow: 3px 3px 5px grey;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.vertical-align {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.search-text {
+	font-size: 17pt;
+	/*font-weight: bolder;*/
+	/*background-color: #ffb700;*/
+	background-color: #457b9d;
+	border-radius: 15px;
+	/*color: #0f4c5c;*/
+	color: white;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align: center;
+
+}
+
+.md-text {
+	font-size: 15pt;
+}
+
+.jumbotron {
+	background-image: url(images/changing-weathers-slow.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+	text-align: center;
+	color: #0f4c5c;
+}
+
+/*for Navbar*/
+.bg-color {
+	/*forest blue-green*/
+	/*background-color: #0f4c5c;*/
+	/*navy*/
+	background-color: #012a4a;
+	/*aqua*/
+	/*background-color: #219ebc;*/
+
+}
+
+.container-fluid {
+	text-align: center;
+	/*soap blue*/
+	/*background-color: #afd7ce;*/
+	/*slate*/
+	background-color: #3C4663;
+	/*background-color: darkslategray;*/
+	color: white;
+}
+
+.container-padding {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.center {
+	text-align: center;
+	justify-content: center;
+}
+
+
+.col-pad {
+	padding-bottom: 5%;
+}
+
+.results-form-containter {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-direction: start;
+}
+
+.form-group {
+	margin: 15px;
+}
+
+.weather-display {
+	background-color: #ffb700;
+	text-align: center;
+	padding: 2px;
+	border-radius: 5px;
+}
+
+.clothing-container {
+	  display: flex;
+	  flex-direction: row;
+	  flex-wrap: wrap;
+	  justify-content: center;
+	  /*justify-content: space-between;*/
+	  justify-content: space-evenly;
+	  align-items: center;
+}
+
+.item {
+	border: solid;
+	/*height: 100%;*/
+	/*width: 100%;*/
+	margin: 2%;
+	display: flex;
+}
+
+.item a {
+	color: white;
+}
+
+.item-name, .details {
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+	position: absolute;
+	padding: 15%;
+	color: white;
+	font-size: medium;
+
+	opacity: 0;
+}
+
+.weather-display img {
+	width: 50px;
+	height: 50px;
+}
+
+/*HOVER*/
+
+.item:hover img{
+	filter: brightness(50%);
+}
+
+.item:hover .item-name {
+	opacity: 100%;
+}
+
+.item:hover .details {
+	opacity: 100%;
+}
+
+/*.item:hover .brand {
+	opacity: 100%;
+}
+*/
+.item-name {
+	top: 30px;
+}
+
+.brand {
+	bottom: 0px;
+}
+
+.details {
+	bottom: 1px;
+	right: 2px;
+}
+footer {
+	background-color: #8ecae6;
+	color: slateblue;
+	padding: 2%;
+	text-align: center;
+}
